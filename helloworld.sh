@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Script Name:                  Script Name
-# Author:                       Your Name
-# Date of latest revision:      00/00/0000
-# Purpose:                      Purpose
+# Script Name:                 hello world
+# Author:                      Reeya Karki
+# Date of latest revision:      04/27/2023
+# Purpose:                     printing a string to the console.
 
 # Declaration of variables
 
