@@ -13,9 +13,6 @@
 # Main
 
 
-
-# End
-
 Create four directories using the script.
 
 mkdir dir1
@@ -29,5 +26,7 @@ dirArray=(dir1 dir2 dir3 dir4)
 create a new .txt file within each directory by reference
 touch "${dirArray[0]}/test.txt"
 touch "${dirArray[1]}/test.txt"
-touch "${dirArray[2]}/test.txt"
+touch "${dirArray[2]}/test.txt"s
 touch "${dirArray[3]}/test.txt"
+
+Done 
