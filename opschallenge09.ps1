@@ -7,7 +7,7 @@
 Get-EventLog -Logname System -After (Get-Date).AddDays(-1) | Out-File -Filepath .\Desktop\last_24.txt
 
 #Output all “error” type events from the System event log to a file on your desktop named errors.txt.
-Get-EventLog -logName System -EntryType Error | Out-File -Filepath\Desktop\errors.txt
+Get-EventLog -LogName System -EntryType Error | Out-File -Filepath .\Desktop\errors.txt
 
 #Print to the screen all events with ID of 16 from the System event log.
 Get-EventLog -Logname System -InstanceId 16
