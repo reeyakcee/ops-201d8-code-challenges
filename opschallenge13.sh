@@ -6,9 +6,6 @@
 #Declaration of functions
 
 #Run who is against a user input string.
-echo "Please enter a domain name"
-read domain 
-
 whois $domain >> test.txt
 
 #Run dig against the user input string.
