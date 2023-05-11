@@ -6,20 +6,20 @@
 #Declaration of functions
 
 #Run who is against a user input string.
-whois $domain >> test.txt
+whois $domain 
 
 #Run dig against the user input string.
-dig $domain >> test.txt
+dig $domain 
 
 #Run host against the user input string.
-host $domain >> test.txt
+host $domain 
 
 #Run nslookup against the user input string.
 nslookup_domain() {
     nslookup $1
 }
 
-nslookup_domain $domain >> test.txt
+nslookup_domain $domain 
 
 #End
 
